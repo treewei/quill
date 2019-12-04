@@ -33,6 +33,7 @@ import CodeBlock, { Code as InlineCode } from './formats/code';
 import Syntax from './modules/syntax';
 import Table from './modules/table';
 import Toolbar from './modules/toolbar';
+import Authorship from './modules/authorship';
 
 import Icons from './ui/icons';
 import Picker from './ui/picker';
@@ -95,6 +96,7 @@ Quill.register(
     'modules/syntax': Syntax,
     'modules/table': Table,
     'modules/toolbar': Toolbar,
+    'modules/authorship': Authorship,
 
     'themes/bubble': BubbleTheme,
     'themes/snow': SnowTheme,
